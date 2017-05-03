@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_77265f6a",
+        "filename": "python-fluent-logger.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-05-03T12:52:12Z",
+      "side": 1,
+      "message": "I think we should replace it with %py2_install for more generic but behind the scenes it will resolves to same thing na.\n%py2_install() %{expand:\\\\\\                                                    \n  CFLAGS\u003d\"%{optflags}\" %{__python2} %{py_setup} %{?py_setup_args} install -O1 --skip-build --root %{buildroot} %{?*}\n}",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 62
+      },
+      "revId": "1222ab392833defbbeed45d40aa2d8aeda9f91a6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
