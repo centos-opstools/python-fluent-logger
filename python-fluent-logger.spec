@@ -20,7 +20,7 @@ Source0:        https://github.com/fluent/fluent-logger-python/archive/v%{versio
 BuildArch:      noarch
  
 BuildRequires:  python2-devel
-BuildRequires:  python2-setuptools
+BuildRequires:  python-setuptools
 
 %description
 A Python structured logger for Fluentd Many web/mobile applications generate
